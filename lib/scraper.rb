@@ -29,7 +29,7 @@ class Scraper
       binding.pry
     end
   end
-  
+
 
   def get_courses
     doc.css(".post")
