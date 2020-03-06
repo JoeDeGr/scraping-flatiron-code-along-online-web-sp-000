@@ -15,19 +15,18 @@ class Scraper
         puts "  Description: #{course.description}"
       end
     end
+  end
 
-    def get_page
-      doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
+  def get_page
+    doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
 
-      binding.pry
-    end
-    def get_courses
-    end
-    def make_courses
-    end
-    def print_courses
-    end
-
+    binding.pry
+  end
+  def get_courses
+  end
+  def make_courses
+  end
+  def print_courses
   end
 
 end
